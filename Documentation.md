@@ -51,5 +51,8 @@
  *vi server.js*
 9. Paste the web server code into the "server.js" file as shown below
 
-10. My Code
+## Step 3: Install Express and Setup Routes to the Server
+
+1. Install "Mongoose" to establish a schema for the database to store data of our book register
+  *sudo npm install express mongoose*
  
