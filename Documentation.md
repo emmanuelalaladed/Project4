@@ -55,4 +55,18 @@
 
 1. Install "Mongoose" to establish a schema for the database to store data of our book register
   *sudo npm install express mongoose*
+
+2. Create a new folder called "apps" in "Book" folder and navigate to the newly created "app" folder with the command
+ *mkdir apps && cd apps*
+
+3. Create a file name "routes.js" and copy paste the provided script into it as shown below
+   ![Moogoose](./images/routes.js)
+
+4. In the "apps" folder create a folder called "models" 
+  *mkdir models && cd models*
+
+5. create a file name "books.js" inside the newly created folder "models"
+ *vi book.js* 
+
+ ![books-file](./images/books.js)
  
