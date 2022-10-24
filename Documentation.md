@@ -70,3 +70,27 @@
 
  ![books-file](./images/books.js)
  
+ # step 4: Access the routes with Angular JS
+
+ 1. Create a new folder called "public" inside "Books" folder
+    *mkdir public && cd public*
+
+ 2. Create a file "script.js" inside "public" folder and copy the script provided
+    *vi scipt.js*
+    ![script](./images/scipt.PNG)
+
+  3. Inside the "public" folder create a new file called "index.html" and copy the provided script into the "index.html" file
+    ![index](./images/index.PNG)
+
+  4. Inside the main directory "Books" Start the server witht the command
+     *node server.js*
+
+  5. Check the running server with the "curl: command
+     *curl -s http://localhost:3300*
+    ![curl](./images/curl.PNG)
+
+  6. The TCP port 3300 is then open in the AWS Web console under the security group in the EC2 instance
+    ![curl](./images/security-group.PNG)
+
+  7. Access the Book Register web application from the internet using the AWS EC2 public address or the public DNS name
+    ![Website](./images/web-access.PNG)
